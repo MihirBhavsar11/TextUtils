@@ -21,7 +21,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('about.html', views.about, name='about'),
     path('contact.html', views.contact, name='contact'),
-    #path('removepunc', views.removepunc, name='removepunc'),
     path('analyze', views.analyze, name='analyze'),
 
 ]
